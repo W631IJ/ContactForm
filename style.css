@@ -1,0 +1,89 @@
+/* *-------------------------- Fonts --------------------------* */ 
+@font-face {
+    font-family: 'Karla';
+    src: url(/contact-form-main/assets/fonts/Karla-VariableFont_wght.ttf);
+}
+
+
+body{
+    font-family: Karla;
+    background-color:#d7f1e8;
+    max-width: 1050px;
+    max-height: 980px;
+}
+
+h1{
+    color: #024d4b;
+}
+
+form{
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    width: 850px;
+    height: 675px;
+}
+
+input.text-input[type="text"]{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type="email"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    width: 50%;
+    background-color: #007d7b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.check-boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 15px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+label[for="consent"]{
+
+}
